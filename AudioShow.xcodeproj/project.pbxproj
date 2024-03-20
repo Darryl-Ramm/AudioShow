@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		58712E792BA3924B00A148DC /* AudioShow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AudioShow; sourceTree = BUILT_PRODUCTS_DIR; };
 		58712E7C2BA3924B00A148DC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		58712EA32BAA93AC00A148DC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		58712E702BA3924B00A148DC = {
 			isa = PBXGroup;
 			children = (
+				58712EA32BAA93AC00A148DC /* README.md */,
 				58712E7B2BA3924B00A148DC /* AudioShow */,
 				58712E7A2BA3924B00A148DC /* Products */,
 			);
@@ -247,6 +249,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QC9927KM38;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -257,6 +260,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QC9927KM38;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
